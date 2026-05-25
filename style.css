@@ -37,3 +37,32 @@ nav{
 nav{
   backdrop-filter:blur(15px);
 }
+html{
+  scroll-behavior:smooth;
+}
+a{
+  text-decoration:none;
+  color:white;
+  font-weight:bold;
+}
+
+a:hover{
+  color:#38bdf8;
+}
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px;
+  background:#0f172a;
+  position:sticky;
+  top:0;
+}
+ul{
+  display:flex;
+  gap:20px;
+  list-style:none;
+}
+section{
+  padding:100px 20px;
+}
