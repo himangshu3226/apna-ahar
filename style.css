@@ -2,3 +2,7 @@ function showMessage(){
     alert("Website Working Successfully!");
 }
 h1{ font-size: 100px }
+body{
+  background:#0f172a;
+  color:white;
+}
